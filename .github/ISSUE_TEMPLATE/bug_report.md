@@ -1,38 +1,37 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+name: Bug 报告
+about: 创建一个 Bug 报告以帮助我们改进
+title: '[BUG] '
+labels: bug
 assignees: ''
-
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Bug 描述
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+请清晰简洁地描述这个 Bug
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## 复现步骤
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+复现这个 Bug 的步骤：
+1. 进入 '...'
+2. 点击 '....'
+3. 滚动到 '....'
+4. 看到错误
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## 预期行为
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+请清晰简洁地描述你预期应该发生的事情
 
-**Additional context**
-Add any other context about the problem here.
+## 截图
+
+如果适用，添加截图以帮助解释你的问题
+
+## 环境信息
+
+ - 操作系统: [例如: Windows 10, macOS 12.0]
+ - Java 版本: [例如: JDK 17]
+ - 项目版本: [例如: 0.0.1-SNAPSHOT]
+
+## 其他上下文
+
+在此添加关于这个问题的任何其他上下文
