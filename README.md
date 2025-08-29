@@ -38,6 +38,28 @@ mvn clean install
 mvn spring-boot:run
 ```
 
+### 测试
+
+#### 1. 生产AccessToken
+
+```
+curl -XPOST http://localhost:8081/oauth2/token --data grant_type=client_credentials --user mcp-client:secret
+
+# response: 
+```
+
+#### 2. 访问
+
+```
+curl http://localhost:8080/sse -H"Authorization: Bearer YOUR_ACCESS_TOKEN"
+#
+# 响应：
+#
+# id:918d5ebe-9ae5-4b04-aae8-c1ff8cdbb6e0
+# event:endpoint
+# data:/mcp/message?sessionId=918d5ebe-9ae5-4b04-aae8-c1ff8cdbb6e0
+```
+
 ## 项目结构
 
 ```
